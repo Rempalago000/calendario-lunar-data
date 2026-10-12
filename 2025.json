@@ -1,0 +1,699 @@
+{
+  "year": 2025,
+  "generated_at": "2026-10-12T15:12:46+00:00",
+  "location": "Jerusalén (35.235 E, 31.778 N)",
+  "sources": [
+    "JPL Horizons (efemérides DE440/DE441)"
+  ],
+  "criterion": "illumination",
+  "rules": [
+    "Si hay un avistamiento confirmado en Israel (informes públicos), ese avistamiento decide el inicio del mes.",
+    "Cada mes empieza la primera tarde (hasta 3 tras la conjunción) en que la Luna está sobre el horizonte al ponerse el Sol en Jerusalén y su iluminación es de al menos 1,2 %.",
+    "Entre 1,1 % y 1,2 % el inicio se marca tentativo y se indica la fecha alternativa (un día después).",
+    "Yallop y Odeh se informan como referencia de visibilidad a simple vista.",
+    "Ningún mes pasa de 30 días.",
+    "El día empieza al ponerse el Sol.",
+    "Mes 1 según aviv.json; si no hay dato, provisional: primer mes que empieza después del equinoccio de marzo.",
+    "Gavilla: domingo tras el sábado semanal entre los días 15 y 21; Pentecostés: 49 días después."
+  ],
+  "aviv": {
+    "status": "pendiente",
+    "source": null,
+    "note": null
+  },
+  "month_count": 12,
+  "months": [
+    {
+      "conjunction_utc": "2025-03-29T10:57:49.915652+00:00",
+      "start_evening": "2025-03-30",
+      "first_day": "2025-03-31",
+      "start_sunset_utc": "2025-03-30T15:57:36.903571+00:00",
+      "start_sunset_local": "18:58",
+      "basis": "visible",
+      "confidence": "confirmado",
+      "evenings": [
+        {
+          "date": "2025-03-29",
+          "status": "ok",
+          "sunset_utc": "2025-03-29T15:56:56.601586+00:00",
+          "illumination_at_sunset_percent": 0.08,
+          "lag_minutes": 10.4,
+          "moon_age_hours": 5.06,
+          "arcv_deg": 2.133,
+          "arcl_deg": 3.268,
+          "width_arcmin": 0.0271,
+          "yallop": {
+            "q": -0.9534,
+            "code": "F"
+          },
+          "odeh": {
+            "v": -4.862,
+            "code": "D"
+          }
+        },
+        {
+          "date": "2025-03-30",
+          "status": "ok",
+          "sunset_utc": "2025-03-30T15:57:36.903571+00:00",
+          "illumination_at_sunset_percent": 2.271,
+          "lag_minutes": 81.9,
+          "moon_age_hours": 29.6,
+          "arcv_deg": 16.635,
+          "arcl_deg": 17.645,
+          "width_arcmin": 0.7863,
+          "yallop": {
+            "q": 0.9367,
+            "code": "A"
+          },
+          "odeh": {
+            "v": 14.039,
+            "code": "A"
+          }
+        }
+      ],
+      "length_days": 29,
+      "number": 1
+    },
+    {
+      "conjunction_utc": "2025-04-27T19:31:09.265266+00:00",
+      "start_evening": "2025-04-28",
+      "first_day": "2025-04-29",
+      "start_sunset_utc": "2025-04-28T16:17:23.976290+00:00",
+      "start_sunset_local": "19:17",
+      "basis": "visible",
+      "confidence": "confirmado",
+      "evenings": [
+        {
+          "date": "2025-04-28",
+          "status": "ok",
+          "sunset_utc": "2025-04-28T16:17:23.976290+00:00",
+          "illumination_at_sunset_percent": 1.296,
+          "lag_minutes": 64.3,
+          "moon_age_hours": 21.25,
+          "arcv_deg": 12.289,
+          "arcl_deg": 13.31,
+          "width_arcmin": 0.4488,
+          "yallop": {
+            "q": 0.3151,
+            "code": "A"
+          },
+          "odeh": {
+            "v": 7.823,
+            "code": "A"
+          }
+        }
+      ],
+      "length_days": 30,
+      "number": 2
+    },
+    {
+      "conjunction_utc": "2025-05-27T03:02:21.046557+00:00",
+      "start_evening": "2025-05-28",
+      "first_day": "2025-05-29",
+      "start_sunset_utc": "2025-05-28T16:37:46.100334+00:00",
+      "start_sunset_local": "19:38",
+      "basis": "visible",
+      "confidence": "confirmado",
+      "evenings": [
+        {
+          "date": "2025-05-27",
+          "status": "ok",
+          "sunset_utc": "2025-05-27T16:37:09.212390+00:00",
+          "illumination_at_sunset_percent": 0.671,
+          "lag_minutes": 47.4,
+          "moon_age_hours": 13.93,
+          "arcv_deg": 8.516,
+          "arcl_deg": 9.547,
+          "width_arcmin": 0.2292,
+          "yallop": {
+            "q": -0.191,
+            "code": "D"
+          },
+          "odeh": {
+            "v": 2.762,
+            "code": "B"
+          }
+        },
+        {
+          "date": "2025-05-28",
+          "status": "ok",
+          "sunset_utc": "2025-05-28T16:37:46.100334+00:00",
+          "illumination_at_sunset_percent": 3.786,
+          "lag_minutes": 115.7,
+          "moon_age_hours": 38.45,
+          "arcv_deg": 20.777,
+          "arcl_deg": 22.858,
+          "width_arcmin": 1.2885,
+          "yallop": {
+            "q": 1.6089,
+            "code": "A"
+          },
+          "odeh": {
+            "v": 20.761,
+            "code": "A"
+          }
+        }
+      ],
+      "length_days": 29,
+      "number": 3
+    },
+    {
+      "conjunction_utc": "2025-06-25T10:31:37.084185+00:00",
+      "start_evening": "2025-06-26",
+      "first_day": "2025-06-27",
+      "start_sunset_utc": "2025-06-26T16:48:45.773031+00:00",
+      "start_sunset_local": "19:49",
+      "basis": "visible",
+      "confidence": "confirmado",
+      "evenings": [
+        {
+          "date": "2025-06-25",
+          "status": "ok",
+          "sunset_utc": "2025-06-25T16:48:39.569145+00:00",
+          "illumination_at_sunset_percent": 0.274,
+          "lag_minutes": 27.4,
+          "moon_age_hours": 6.49,
+          "arcv_deg": 4.872,
+          "arcl_deg": 6.045,
+          "width_arcmin": 0.0904,
+          "yallop": {
+            "q": -0.6399,
+            "code": "F"
+          },
+          "odeh": {
+            "v": -1.727,
+            "code": "D"
+          }
+        },
+        {
+          "date": "2025-06-26",
+          "status": "ok",
+          "sunset_utc": "2025-06-26T16:48:45.773031+00:00",
+          "illumination_at_sunset_percent": 2.31,
+          "lag_minutes": 81.3,
+          "moon_age_hours": 30.89,
+          "arcv_deg": 14.796,
+          "arcl_deg": 17.753,
+          "width_arcmin": 0.7666,
+          "yallop": {
+            "q": 0.7422,
+            "code": "A"
+          },
+          "odeh": {
+            "v": 12.094,
+            "code": "A"
+          }
+        }
+      ],
+      "length_days": 30,
+      "number": 4
+    },
+    {
+      "conjunction_utc": "2025-07-24T19:11:12.047377+00:00",
+      "start_evening": "2025-07-26",
+      "first_day": "2025-07-27",
+      "start_sunset_utc": "2025-07-26T16:40:10.769260+00:00",
+      "start_sunset_local": "19:40",
+      "basis": "visible",
+      "confidence": "confirmado",
+      "evenings": [
+        {
+          "date": "2025-07-25",
+          "status": "ok",
+          "sunset_utc": "2025-07-25T16:40:49.948171+00:00",
+          "illumination_at_sunset_percent": 1.051,
+          "lag_minutes": 45.5,
+          "moon_age_hours": 21.83,
+          "arcv_deg": 8.784,
+          "arcl_deg": 11.902,
+          "width_arcmin": 0.3383,
+          "yallop": {
+            "q": -0.0994,
+            "code": "C"
+          },
+          "odeh": {
+            "v": 3.678,
+            "code": "B"
+          }
+        },
+        {
+          "date": "2025-07-26",
+          "status": "ok",
+          "sunset_utc": "2025-07-26T16:40:10.769260+00:00",
+          "illumination_at_sunset_percent": 4.273,
+          "lag_minutes": 79.5,
+          "moon_age_hours": 46.07,
+          "arcv_deg": 15.699,
+          "arcl_deg": 24.093,
+          "width_arcmin": 1.3556,
+          "yallop": {
+            "q": 1.1341,
+            "code": "A"
+          },
+          "odeh": {
+            "v": 16.013,
+            "code": "A"
+          }
+        }
+      ],
+      "length_days": 29,
+      "number": 5
+    },
+    {
+      "conjunction_utc": "2025-08-23T06:06:33.011486+00:00",
+      "start_evening": "2025-08-24",
+      "first_day": "2025-08-25",
+      "start_sunset_utc": "2025-08-24T16:12:54.138562+00:00",
+      "start_sunset_local": "19:13",
+      "basis": "visible",
+      "confidence": "confirmado",
+      "evenings": [
+        {
+          "date": "2025-08-23",
+          "status": "ok",
+          "sunset_utc": "2025-08-23T16:14:03.593470+00:00",
+          "illumination_at_sunset_percent": 0.206,
+          "lag_minutes": 14.6,
+          "moon_age_hours": 10.23,
+          "arcv_deg": 2.999,
+          "arcl_deg": 5.231,
+          "width_arcmin": 0.064,
+          "yallop": {
+            "q": -0.8436,
+            "code": "F"
+          },
+          "odeh": {
+            "v": -3.764,
+            "code": "D"
+          }
+        },
+        {
+          "date": "2025-08-24",
+          "status": "ok",
+          "sunset_utc": "2025-08-24T16:12:54.138562+00:00",
+          "illumination_at_sunset_percent": 2.154,
+          "lag_minutes": 43.0,
+          "moon_age_hours": 34.42,
+          "arcv_deg": 8.933,
+          "arcl_deg": 16.984,
+          "width_arcmin": 0.6643,
+          "yallop": {
+            "q": 0.1002,
+            "code": "B"
+          },
+          "odeh": {
+            "v": 5.674,
+            "code": "A"
+          }
+        }
+      ],
+      "length_days": 30,
+      "number": 6
+    },
+    {
+      "conjunction_utc": "2025-09-21T19:54:07.855560+00:00",
+      "start_evening": "2025-09-23",
+      "first_day": "2025-09-24",
+      "start_sunset_utc": "2025-09-23T15:34:38.069855+00:00",
+      "start_sunset_local": "18:35",
+      "basis": "visible",
+      "confidence": "confirmado",
+      "evenings": [
+        {
+          "date": "2025-09-22",
+          "status": "ok",
+          "sunset_utc": "2025-09-22T15:35:56.880080+00:00",
+          "illumination_at_sunset_percent": 0.684,
+          "lag_minutes": 13.5,
+          "moon_age_hours": 19.8,
+          "arcv_deg": 2.859,
+          "arcl_deg": 9.504,
+          "width_arcmin": 0.2053,
+          "yallop": {
+            "q": -0.7711,
+            "code": "F"
+          },
+          "odeh": {
+            "v": -3.039,
+            "code": "D"
+          }
+        },
+        {
+          "date": "2025-09-23",
+          "status": "ok",
+          "sunset_utc": "2025-09-23T15:34:38.069855+00:00",
+          "illumination_at_sunset_percent": 3.216,
+          "lag_minutes": 40.8,
+          "moon_age_hours": 43.98,
+          "arcv_deg": 8.451,
+          "arcl_deg": 20.742,
+          "width_arcmin": 0.9639,
+          "yallop": {
+            "q": 0.2119,
+            "code": "B"
+          },
+          "odeh": {
+            "v": 6.791,
+            "code": "A"
+          }
+        }
+      ],
+      "length_days": 29,
+      "number": 7
+    },
+    {
+      "conjunction_utc": "2025-10-21T12:25:10.426591+00:00",
+      "start_evening": "2025-10-22",
+      "first_day": "2025-10-23",
+      "start_sunset_utc": "2025-10-22T14:59:23.362497+00:00",
+      "start_sunset_local": "17:59",
+      "basis": "visible",
+      "confidence": "confirmado",
+      "evenings": [
+        {
+          "date": "2025-10-21",
+          "status": "moon_below_horizon_at_sunset",
+          "sunset_utc": "2025-10-21T15:00:26.953910+00:00",
+          "illumination_at_sunset_percent": 0.101,
+          "lag_minutes": null,
+          "moon_age_hours": null,
+          "arcv_deg": null,
+          "arcl_deg": null,
+          "width_arcmin": null,
+          "yallop": {
+            "q": null,
+            "code": "F"
+          },
+          "odeh": {
+            "v": null,
+            "code": "D"
+          }
+        },
+        {
+          "date": "2025-10-22",
+          "status": "ok",
+          "sunset_utc": "2025-10-22T14:59:23.362497+00:00",
+          "illumination_at_sunset_percent": 1.246,
+          "lag_minutes": 15.8,
+          "moon_age_hours": 26.69,
+          "arcv_deg": 3.153,
+          "arcl_deg": 12.827,
+          "width_arcmin": 0.3675,
+          "yallop": {
+            "q": -0.6454,
+            "code": "F"
+          },
+          "odeh": {
+            "v": -1.782,
+            "code": "D"
+          }
+        }
+      ],
+      "length_days": 30,
+      "number": 8
+    },
+    {
+      "conjunction_utc": "2025-11-20T06:47:16.085462+00:00",
+      "start_evening": "2025-11-21",
+      "first_day": "2025-11-22",
+      "start_sunset_utc": "2025-11-21T14:37:19.738359+00:00",
+      "start_sunset_local": "16:37",
+      "basis": "visible",
+      "confidence": "confirmado",
+      "evenings": [
+        {
+          "date": "2025-11-20",
+          "status": "moon_below_horizon_at_sunset",
+          "sunset_utc": "2025-11-20T14:37:42.593141+00:00",
+          "illumination_at_sunset_percent": 0.278,
+          "lag_minutes": null,
+          "moon_age_hours": null,
+          "arcv_deg": null,
+          "arcl_deg": null,
+          "width_arcmin": null,
+          "yallop": {
+            "q": null,
+            "code": "F"
+          },
+          "odeh": {
+            "v": null,
+            "code": "D"
+          }
+        },
+        {
+          "date": "2025-11-21",
+          "status": "ok",
+          "sunset_utc": "2025-11-21T14:37:19.738359+00:00",
+          "illumination_at_sunset_percent": 1.769,
+          "lag_minutes": 31.8,
+          "moon_age_hours": 32.07,
+          "arcv_deg": 5.823,
+          "arcl_deg": 15.342,
+          "width_arcmin": 0.5247,
+          "yallop": {
+            "q": -0.2883,
+            "code": "E"
+          },
+          "odeh": {
+            "v": 1.789,
+            "code": "C"
+          }
+        }
+      ],
+      "length_days": 30,
+      "number": 9
+    },
+    {
+      "conjunction_utc": "2025-12-20T01:43:20.739020+00:00",
+      "start_evening": "2025-12-21",
+      "first_day": "2025-12-22",
+      "start_sunset_utc": "2025-12-21T14:39:44.921874+00:00",
+      "start_sunset_local": "16:40",
+      "basis": "visible",
+      "confidence": "confirmado",
+      "evenings": [
+        {
+          "date": "2025-12-20",
+          "status": "ok",
+          "sunset_utc": "2025-12-20T14:39:15.093736+00:00",
+          "illumination_at_sunset_percent": 0.434,
+          "lag_minutes": 7.6,
+          "moon_age_hours": 12.99,
+          "arcv_deg": 1.387,
+          "arcl_deg": 7.548,
+          "width_arcmin": 0.1286,
+          "yallop": {
+            "q": -0.9649,
+            "code": "F"
+          },
+          "odeh": {
+            "v": -4.977,
+            "code": "D"
+          }
+        },
+        {
+          "date": "2025-12-21",
+          "status": "ok",
+          "sunset_utc": "2025-12-21T14:39:44.921874+00:00",
+          "illumination_at_sunset_percent": 2.348,
+          "lag_minutes": 64.7,
+          "moon_age_hours": 37.42,
+          "arcv_deg": 11.645,
+          "arcl_deg": 17.791,
+          "width_arcmin": 0.7152,
+          "yallop": {
+            "q": 0.3993,
+            "code": "A"
+          },
+          "odeh": {
+            "v": 8.665,
+            "code": "A"
+          }
+        }
+      ],
+      "length_days": 30,
+      "number": 10
+    },
+    {
+      "conjunction_utc": "2026-01-18T19:51:58.917861+00:00",
+      "start_evening": "2026-01-20",
+      "first_day": "2026-01-21",
+      "start_sunset_utc": "2026-01-20T15:02:29.796743+00:00",
+      "start_sunset_local": "17:02",
+      "basis": "observado_en_israel",
+      "confidence": "observado",
+      "evenings": [
+        {
+          "date": "2026-01-20",
+          "status": "ok",
+          "sunset_utc": "2026-01-20T15:02:29.796743+00:00",
+          "illumination_at_sunset_percent": 3.343,
+          "lag_minutes": 97.5,
+          "moon_age_hours": 43.9,
+          "arcv_deg": 18.87,
+          "arcl_deg": 21.363,
+          "width_arcmin": 1.0569,
+          "yallop": {
+            "q": 1.3019,
+            "code": "A"
+          },
+          "odeh": {
+            "v": 17.691,
+            "code": "A"
+          }
+        }
+      ],
+      "observation": {
+        "source": "whenisthenewmoon.com",
+        "url": "https://whenisthenewmoon.com/",
+        "date": "2026-01-20"
+      },
+      "length_days": 29,
+      "number": 11
+    },
+    {
+      "conjunction_utc": "2026-02-17T12:01:09.063951+00:00",
+      "start_evening": "2026-02-18",
+      "first_day": "2026-02-19",
+      "start_sunset_utc": "2026-02-18T15:28:20.073343+00:00",
+      "start_sunset_local": "17:28",
+      "basis": "observado_en_israel",
+      "confidence": "observado",
+      "evenings": [
+        {
+          "date": "2026-02-18",
+          "status": "ok",
+          "sunset_utc": "2026-02-18T15:28:20.073343+00:00",
+          "illumination_at_sunset_percent": 1.511,
+          "lag_minutes": 64.6,
+          "moon_age_hours": 27.93,
+          "arcv_deg": 13.22,
+          "arcl_deg": 14.329,
+          "width_arcmin": 0.4896,
+          "yallop": {
+            "q": 0.4316,
+            "code": "A"
+          },
+          "odeh": {
+            "v": 8.988,
+            "code": "A"
+          }
+        }
+      ],
+      "observation": {
+        "source": "whenisthenewmoon.com",
+        "url": "https://whenisthenewmoon.com/",
+        "date": "2026-02-18"
+      },
+      "length_days": 30,
+      "number": 12
+    }
+  ],
+  "times_note": "Horas del ocaso en hora local de Jerusalén (Asia/Jerusalem).",
+  "feasts": [
+    {
+      "id": "year_start",
+      "name": "Inicio del año (mes de Aviv)",
+      "begins_evening": "2025-03-30",
+      "date": "2025-03-31",
+      "provisional": true,
+      "begins_sunset_utc": "2025-03-30T15:57:36.903571+00:00",
+      "begins_sunset_local": "18:58"
+    },
+    {
+      "id": "passover",
+      "name": "Pascua",
+      "begins_evening": "2025-04-12",
+      "date": "2025-04-13",
+      "provisional": true,
+      "note": "Día 14 del mes 1; el cordero se sacrifica 'entre las dos tardes'.",
+      "begins_sunset_utc": "2025-04-12T16:06:20.588703+00:00",
+      "begins_sunset_local": "19:06"
+    },
+    {
+      "id": "unleavened_first",
+      "name": "Panes sin levadura: primer día (santa convocación)",
+      "begins_evening": "2025-04-13",
+      "date": "2025-04-14",
+      "provisional": true,
+      "begins_sunset_utc": "2025-04-13T16:07:01.682970+00:00",
+      "begins_sunset_local": "19:07"
+    },
+    {
+      "id": "unleavened",
+      "name": "Panes sin levadura",
+      "begins_evening": "2025-04-13",
+      "date": "2025-04-14",
+      "provisional": true,
+      "end_date": "2025-04-20",
+      "begins_sunset_utc": "2025-04-13T16:07:01.682970+00:00",
+      "begins_sunset_local": "19:07"
+    },
+    {
+      "id": "unleavened_last",
+      "name": "Panes sin levadura: último día (santa convocación)",
+      "begins_evening": "2025-04-19",
+      "date": "2025-04-20",
+      "provisional": true,
+      "begins_sunset_utc": "2025-04-19T16:11:07.257477+00:00",
+      "begins_sunset_local": "19:11"
+    },
+    {
+      "id": "firstfruits",
+      "name": "Primicias (gavilla mecida)",
+      "begins_evening": "2025-04-19",
+      "date": "2025-04-20",
+      "provisional": true,
+      "note": "Método: weekly_sabbath",
+      "begins_sunset_utc": "2025-04-19T16:11:07.257477+00:00",
+      "begins_sunset_local": "19:11"
+    },
+    {
+      "id": "pentecost",
+      "name": "Pentecostés (Shavuot)",
+      "begins_evening": "2025-06-07",
+      "date": "2025-06-08",
+      "provisional": true,
+      "note": "50 días contando desde las Primicias.",
+      "begins_sunset_utc": "2025-06-07T16:43:10.005740+00:00",
+      "begins_sunset_local": "19:43"
+    },
+    {
+      "id": "trumpets",
+      "name": "Fiesta de las Trompetas",
+      "begins_evening": "2025-09-23",
+      "date": "2025-09-24",
+      "provisional": true,
+      "begins_sunset_utc": "2025-09-23T15:34:38.069855+00:00",
+      "begins_sunset_local": "18:35"
+    },
+    {
+      "id": "atonement",
+      "name": "Día de la Expiación",
+      "begins_evening": "2025-10-02",
+      "date": "2025-10-03",
+      "provisional": true,
+      "begins_sunset_utc": "2025-10-02T15:22:57.876333+00:00",
+      "begins_sunset_local": "18:23"
+    },
+    {
+      "id": "tabernacles",
+      "name": "Fiesta de los Tabernáculos",
+      "begins_evening": "2025-10-07",
+      "date": "2025-10-08",
+      "provisional": true,
+      "end_date": "2025-10-14",
+      "begins_sunset_utc": "2025-10-07T15:16:40.653367+00:00",
+      "begins_sunset_local": "18:17"
+    },
+    {
+      "id": "eighth_day",
+      "name": "Octavo día (gran día)",
+      "begins_evening": "2025-10-14",
+      "date": "2025-10-15",
+      "provisional": true,
+      "begins_sunset_utc": "2025-10-14T15:08:14.936448+00:00",
+      "begins_sunset_local": "18:08"
+    }
+  ]
+}

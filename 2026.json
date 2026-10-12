@@ -1,0 +1,681 @@
+{
+  "year": 2026,
+  "generated_at": "2026-10-12T15:16:51+00:00",
+  "location": "Jerusalén (35.235 E, 31.778 N)",
+  "sources": [
+    "JPL Horizons (efemérides DE440/DE441)"
+  ],
+  "criterion": "illumination",
+  "rules": [
+    "Si hay un avistamiento confirmado en Israel (informes públicos), ese avistamiento decide el inicio del mes.",
+    "Cada mes empieza la primera tarde (hasta 3 tras la conjunción) en que la Luna está sobre el horizonte al ponerse el Sol en Jerusalén y su iluminación es de al menos 1,2 %.",
+    "Entre 1,1 % y 1,2 % el inicio se marca tentativo y se indica la fecha alternativa (un día después).",
+    "Yallop y Odeh se informan como referencia de visibilidad a simple vista.",
+    "Ningún mes pasa de 30 días.",
+    "El día empieza al ponerse el Sol.",
+    "Mes 1 según aviv.json; si no hay dato, provisional: primer mes que empieza después del equinoccio de marzo.",
+    "Gavilla: domingo tras el sábado semanal entre los días 15 y 21; Pentecostés: 49 días después."
+  ],
+  "aviv": {
+    "status": "pendiente",
+    "source": null,
+    "note": "Completar tras el informe de la cebada. Poner status 'confirmado' y, si el mes 1 NO es la luna provisional, la fecha UTC de la conjunción elegida (ej. '2026-03-19')."
+  },
+  "month_count": 13,
+  "months": [
+    {
+      "conjunction_utc": "2026-03-19T01:23:28.722703+00:00",
+      "start_evening": "2026-03-20",
+      "first_day": "2026-03-21",
+      "start_sunset_utc": "2026-03-20T15:50:41.971257+00:00",
+      "start_sunset_local": "17:51",
+      "basis": "observado_en_israel",
+      "confidence": "observado",
+      "evenings": [
+        {
+          "date": "2026-03-20",
+          "status": "ok",
+          "sunset_utc": "2026-03-20T15:50:41.971257+00:00",
+          "illumination_at_sunset_percent": 3.464,
+          "lag_minutes": 101.6,
+          "moon_age_hours": 39.21,
+          "arcv_deg": 20.839,
+          "arcl_deg": 21.812,
+          "width_arcmin": 1.1638,
+          "yallop": {
+            "q": 1.5529,
+            "code": "A"
+          },
+          "odeh": {
+            "v": 20.201,
+            "code": "A"
+          }
+        }
+      ],
+      "observation": {
+        "source": "whenisthenewmoon.com",
+        "url": "https://whenisthenewmoon.com/",
+        "date": "2026-03-20"
+      },
+      "length_days": 29,
+      "number": 1
+    },
+    {
+      "conjunction_utc": "2026-04-17T11:51:48.230706+00:00",
+      "start_evening": "2026-04-18",
+      "first_day": "2026-04-19",
+      "start_sunset_utc": "2026-04-18T16:10:16.420266+00:00",
+      "start_sunset_local": "19:10",
+      "basis": "observado_en_israel",
+      "confidence": "observado",
+      "evenings": [
+        {
+          "date": "2026-04-18",
+          "status": "ok",
+          "sunset_utc": "2026-04-18T16:10:16.420266+00:00",
+          "illumination_at_sunset_percent": 2.194,
+          "lag_minutes": 83.9,
+          "moon_age_hours": 28.93,
+          "arcv_deg": 16.334,
+          "arcl_deg": 17.342,
+          "width_arcmin": 0.7521,
+          "yallop": {
+            "q": 0.8881,
+            "code": "A"
+          },
+          "odeh": {
+            "v": 13.553,
+            "code": "A"
+          }
+        }
+      ],
+      "observation": {
+        "source": "whenisthenewmoon.com",
+        "url": "https://whenisthenewmoon.com/",
+        "date": "2026-04-18"
+      },
+      "length_days": 29,
+      "number": 2
+    },
+    {
+      "conjunction_utc": "2026-05-16T20:01:02.790373+00:00",
+      "start_evening": "2026-05-17",
+      "first_day": "2026-05-18",
+      "start_sunset_utc": "2026-05-17T16:30:31.166175+00:00",
+      "start_sunset_local": "19:31",
+      "basis": "visible",
+      "confidence": "confirmado",
+      "evenings": [
+        {
+          "date": "2026-05-17",
+          "status": "ok",
+          "sunset_utc": "2026-05-17T16:30:31.166175+00:00",
+          "illumination_at_sunset_percent": 1.32,
+          "lag_minutes": 68.1,
+          "moon_age_hours": 21.0,
+          "arcv_deg": 12.419,
+          "arcl_deg": 13.438,
+          "width_arcmin": 0.4575,
+          "yallop": {
+            "q": 0.3331,
+            "code": "A"
+          },
+          "odeh": {
+            "v": 8.003,
+            "code": "A"
+          }
+        }
+      ],
+      "length_days": 30,
+      "number": 3
+    },
+    {
+      "conjunction_utc": "2026-06-15T02:54:10.108532+00:00",
+      "start_evening": "2026-06-16",
+      "first_day": "2026-06-17",
+      "start_sunset_utc": "2026-06-16T16:46:39.035555+00:00",
+      "start_sunset_local": "19:47",
+      "basis": "observado_en_israel",
+      "confidence": "observado",
+      "evenings": [
+        {
+          "date": "2026-06-16",
+          "status": "ok",
+          "sunset_utc": "2026-06-16T16:46:39.035555+00:00",
+          "illumination_at_sunset_percent": 3.904,
+          "lag_minutes": 105.3,
+          "moon_age_hours": 38.66,
+          "arcv_deg": 19.145,
+          "arcl_deg": 23.182,
+          "width_arcmin": 1.3432,
+          "yallop": {
+            "q": 1.4726,
+            "code": "A"
+          },
+          "odeh": {
+            "v": 19.398,
+            "code": "A"
+          }
+        }
+      ],
+      "observation": {
+        "source": "whenisthenewmoon.com",
+        "url": "https://whenisthenewmoon.com/",
+        "date": "2026-06-16"
+      },
+      "length_days": 29,
+      "number": 4
+    },
+    {
+      "conjunction_utc": "2026-07-14T09:43:36.925866+00:00",
+      "start_evening": "2026-07-15",
+      "first_day": "2026-07-16",
+      "start_sunset_utc": "2026-07-15T16:46:02.957465+00:00",
+      "start_sunset_local": "19:46",
+      "basis": "observado_en_israel",
+      "confidence": "observado",
+      "evenings": [
+        {
+          "date": "2026-07-15",
+          "status": "ok",
+          "sunset_utc": "2026-07-15T16:46:02.957465+00:00",
+          "illumination_at_sunset_percent": 2.474,
+          "lag_minutes": 66.0,
+          "moon_age_hours": 31.53,
+          "arcv_deg": 12.619,
+          "arcl_deg": 18.325,
+          "width_arcmin": 0.8335,
+          "yallop": {
+            "q": 0.5602,
+            "code": "A"
+          },
+          "odeh": {
+            "v": 10.274,
+            "code": "A"
+          }
+        }
+      ],
+      "observation": {
+        "source": "whenisthenewmoon.com",
+        "url": "https://whenisthenewmoon.com/",
+        "date": "2026-07-15"
+      },
+      "length_days": 30,
+      "number": 5
+    },
+    {
+      "conjunction_utc": "2026-08-12T17:36:44.985408+00:00",
+      "start_evening": "2026-08-14",
+      "first_day": "2026-08-15",
+      "start_sunset_utc": "2026-08-14T16:24:10.764178+00:00",
+      "start_sunset_local": "19:24",
+      "basis": "observado_en_israel",
+      "confidence": "observado",
+      "evenings": [
+        {
+          "date": "2026-08-14",
+          "status": "ok",
+          "sunset_utc": "2026-08-14T16:24:10.764178+00:00",
+          "illumination_at_sunset_percent": 4.977,
+          "lag_minutes": 63.6,
+          "moon_age_hours": 47.26,
+          "arcv_deg": 13.03,
+          "arcl_deg": 25.966,
+          "width_arcmin": 1.6092,
+          "yallop": {
+            "q": 0.9896,
+            "code": "A"
+          },
+          "odeh": {
+            "v": 14.568,
+            "code": "A"
+          }
+        }
+      ],
+      "observation": {
+        "source": "whenisthenewmoon.com",
+        "url": "https://whenisthenewmoon.com/",
+        "date": "2026-08-14"
+      },
+      "length_days": 29,
+      "number": 6
+    },
+    {
+      "conjunction_utc": "2026-09-11T03:26:59.921380+00:00",
+      "start_evening": "2026-09-12",
+      "first_day": "2026-09-13",
+      "start_sunset_utc": "2026-09-12T15:49:24.684979+00:00",
+      "start_sunset_local": "18:49",
+      "basis": "observado_en_israel",
+      "confidence": "observado",
+      "evenings": [
+        {
+          "date": "2026-09-12",
+          "status": "ok",
+          "sunset_utc": "2026-09-12T15:49:24.684979+00:00",
+          "illumination_at_sunset_percent": 2.816,
+          "lag_minutes": 34.4,
+          "moon_age_hours": 36.63,
+          "arcv_deg": 7.173,
+          "arcl_deg": 19.397,
+          "width_arcmin": 0.8854,
+          "yallop": {
+            "q": 0.0431,
+            "code": "B"
+          },
+          "odeh": {
+            "v": 5.103,
+            "code": "B"
+          }
+        }
+      ],
+      "observation": {
+        "source": "whenisthenewmoon.com",
+        "url": "https://whenisthenewmoon.com/",
+        "date": "2026-09-12"
+      },
+      "length_days": 29,
+      "number": 7
+    },
+    {
+      "conjunction_utc": "2026-10-10T15:50:05.061193+00:00",
+      "start_evening": "2026-10-11",
+      "first_day": "2026-10-12",
+      "start_sunset_utc": "2026-10-11T15:12:05.424147+00:00",
+      "start_sunset_local": "18:12",
+      "basis": "visible",
+      "confidence": "tentativo",
+      "evenings": [
+        {
+          "date": "2026-10-11",
+          "status": "ok",
+          "sunset_utc": "2026-10-11T15:12:05.424147+00:00",
+          "illumination_at_sunset_percent": 1.177,
+          "lag_minutes": 10.9,
+          "moon_age_hours": 23.45,
+          "arcv_deg": 2.233,
+          "arcl_deg": 12.455,
+          "width_arcmin": 0.3592,
+          "yallop": {
+            "q": -0.7423,
+            "code": "F"
+          },
+          "odeh": {
+            "v": -2.751,
+            "code": "D"
+          }
+        }
+      ],
+      "pending_observation": {
+        "source": "renewedmoon.com",
+        "url": "https://renewedmoon.com/",
+        "date": "2026-10-12"
+      },
+      "alternative_start_evening": "2026-10-12",
+      "length_days": 30,
+      "number": 8
+    },
+    {
+      "conjunction_utc": "2026-11-09T07:02:06.909229+00:00",
+      "start_evening": "2026-11-10",
+      "first_day": "2026-11-11",
+      "start_sunset_utc": "2026-11-10T14:43:05.865049+00:00",
+      "start_sunset_local": "16:43",
+      "basis": "visible",
+      "confidence": "confirmado",
+      "evenings": [
+        {
+          "date": "2026-11-09",
+          "status": "moon_below_horizon_at_sunset",
+          "sunset_utc": "2026-11-09T14:43:46.636642+00:00",
+          "illumination_at_sunset_percent": 0.291,
+          "lag_minutes": null,
+          "moon_age_hours": null,
+          "arcv_deg": null,
+          "arcl_deg": null,
+          "width_arcmin": null,
+          "yallop": {
+            "q": null,
+            "code": "F"
+          },
+          "odeh": {
+            "v": null,
+            "code": "D"
+          }
+        },
+        {
+          "date": "2026-11-10",
+          "status": "ok",
+          "sunset_utc": "2026-11-10T14:43:05.865049+00:00",
+          "illumination_at_sunset_percent": 1.872,
+          "lag_minutes": 28.4,
+          "moon_age_hours": 31.89,
+          "arcv_deg": 5.325,
+          "arcl_deg": 15.772,
+          "width_arcmin": 0.5606,
+          "yallop": {
+            "q": -0.318,
+            "code": "F"
+          },
+          "odeh": {
+            "v": 1.492,
+            "code": "C"
+          }
+        }
+      ],
+      "length_days": 30,
+      "number": 9
+    },
+    {
+      "conjunction_utc": "2026-12-09T00:51:51.102991+00:00",
+      "start_evening": "2026-12-10",
+      "first_day": "2026-12-11",
+      "start_sunset_utc": "2026-12-10T14:35:48.618215+00:00",
+      "start_sunset_local": "16:36",
+      "basis": "visible",
+      "confidence": "confirmado",
+      "evenings": [
+        {
+          "date": "2026-12-09",
+          "status": "ok",
+          "sunset_utc": "2026-12-09T14:35:37.641590+00:00",
+          "illumination_at_sunset_percent": 0.441,
+          "lag_minutes": 6.4,
+          "moon_age_hours": 13.78,
+          "arcv_deg": 1.19,
+          "arcl_deg": 7.611,
+          "width_arcmin": 0.1298,
+          "yallop": {
+            "q": -0.9838,
+            "code": "F"
+          },
+          "odeh": {
+            "v": -5.166,
+            "code": "D"
+          }
+        },
+        {
+          "date": "2026-12-10",
+          "status": "ok",
+          "sunset_utc": "2026-12-10T14:35:48.618215+00:00",
+          "illumination_at_sunset_percent": 2.327,
+          "lag_minutes": 59.7,
+          "moon_age_hours": 38.17,
+          "arcv_deg": 10.737,
+          "arcl_deg": 17.687,
+          "width_arcmin": 0.696,
+          "yallop": {
+            "q": 0.298,
+            "code": "A"
+          },
+          "odeh": {
+            "v": 7.652,
+            "code": "A"
+          }
+        }
+      ],
+      "length_days": 30,
+      "number": 10
+    },
+    {
+      "conjunction_utc": "2027-01-07T20:24:23.226090+00:00",
+      "start_evening": "2027-01-09",
+      "first_day": "2027-01-10",
+      "start_sunset_utc": "2027-01-09T14:52:37.029232+00:00",
+      "start_sunset_local": "16:53",
+      "basis": "visible",
+      "confidence": "confirmado",
+      "evenings": [
+        {
+          "date": "2027-01-08",
+          "status": "ok",
+          "sunset_utc": "2027-01-08T14:51:47.299097+00:00",
+          "illumination_at_sunset_percent": 0.563,
+          "lag_minutes": 31.0,
+          "moon_age_hours": 18.69,
+          "arcv_deg": 5.788,
+          "arcl_deg": 8.674,
+          "width_arcmin": 0.1684,
+          "yallop": {
+            "q": -0.5005,
+            "code": "F"
+          },
+          "odeh": {
+            "v": -0.333,
+            "code": "C"
+          }
+        },
+        {
+          "date": "2027-01-09",
+          "status": "ok",
+          "sunset_utc": "2027-01-09T14:52:37.029232+00:00",
+          "illumination_at_sunset_percent": 2.788,
+          "lag_minutes": 87.8,
+          "moon_age_hours": 43.12,
+          "arcv_deg": 16.608,
+          "arcl_deg": 19.458,
+          "width_arcmin": 0.8444,
+          "yallop": {
+            "q": 0.9649,
+            "code": "A"
+          },
+          "odeh": {
+            "v": 14.321,
+            "code": "A"
+          }
+        }
+      ],
+      "length_days": 30,
+      "number": 11
+    },
+    {
+      "conjunction_utc": "2027-02-06T15:56:07.251176+00:00",
+      "start_evening": "2027-02-08",
+      "first_day": "2027-02-09",
+      "start_sunset_utc": "2027-02-08T15:19:35.383249+00:00",
+      "start_sunset_local": "17:20",
+      "basis": "visible",
+      "confidence": "confirmado",
+      "evenings": [
+        {
+          "date": "2027-02-07",
+          "status": "ok",
+          "sunset_utc": "2027-02-07T15:18:42.069716+00:00",
+          "illumination_at_sunset_percent": 0.891,
+          "lag_minutes": 49.3,
+          "moon_age_hours": 23.74,
+          "arcv_deg": 9.927,
+          "arcl_deg": 10.971,
+          "width_arcmin": 0.2729,
+          "yallop": {
+            "q": -0.0237,
+            "code": "C"
+          },
+          "odeh": {
+            "v": 4.435,
+            "code": "B"
+          }
+        },
+        {
+          "date": "2027-02-08",
+          "status": "ok",
+          "sunset_utc": "2027-02-08T15:19:35.383249+00:00",
+          "illumination_at_sunset_percent": 3.681,
+          "lag_minutes": 104.9,
+          "moon_age_hours": 48.17,
+          "arcv_deg": 21.365,
+          "arcl_deg": 22.425,
+          "width_arcmin": 1.1392,
+          "yallop": {
+            "q": 1.5932,
+            "code": "A"
+          },
+          "odeh": {
+            "v": 20.604,
+            "code": "A"
+          }
+        }
+      ],
+      "length_days": 29,
+      "number": 12
+    },
+    {
+      "conjunction_utc": "2027-03-08T09:29:28.979327+00:00",
+      "start_evening": "2027-03-09",
+      "first_day": "2027-03-10",
+      "start_sunset_utc": "2027-03-09T15:42:50.927691+00:00",
+      "start_sunset_local": "17:43",
+      "basis": "visible",
+      "confidence": "confirmado",
+      "evenings": [
+        {
+          "date": "2027-03-08",
+          "status": "ok",
+          "sunset_utc": "2027-03-08T15:42:06.810549+00:00",
+          "illumination_at_sunset_percent": 0.123,
+          "lag_minutes": 11.9,
+          "moon_age_hours": 6.3,
+          "arcv_deg": 2.479,
+          "arcl_deg": 4.031,
+          "width_arcmin": 0.0376,
+          "yallop": {
+            "q": -0.9122,
+            "code": "F"
+          },
+          "odeh": {
+            "v": -4.45,
+            "code": "D"
+          }
+        },
+        {
+          "date": "2027-03-09",
+          "status": "ok",
+          "sunset_utc": "2027-03-09T15:42:50.927691+00:00",
+          "illumination_at_sunset_percent": 1.745,
+          "lag_minutes": 69.3,
+          "moon_age_hours": 30.74,
+          "arcv_deg": 14.399,
+          "arcl_deg": 15.388,
+          "width_arcmin": 0.5501,
+          "yallop": {
+            "q": 0.5835,
+            "code": "A"
+          },
+          "odeh": {
+            "v": 10.507,
+            "code": "A"
+          }
+        }
+      ],
+      "length_days": 30,
+      "number": 13
+    }
+  ],
+  "times_note": "Horas del ocaso en hora local de Jerusalén (Asia/Jerusalem).",
+  "feasts": [
+    {
+      "id": "year_start",
+      "name": "Inicio del año (mes de Aviv)",
+      "begins_evening": "2026-03-20",
+      "date": "2026-03-21",
+      "provisional": true,
+      "begins_sunset_utc": "2026-03-20T15:50:41.971257+00:00",
+      "begins_sunset_local": "17:51"
+    },
+    {
+      "id": "passover",
+      "name": "Pascua",
+      "begins_evening": "2026-04-02",
+      "date": "2026-04-03",
+      "provisional": true,
+      "note": "Día 14 del mes 1; el cordero se sacrifica 'entre las dos tardes'.",
+      "begins_sunset_utc": "2026-04-02T15:59:27.173467+00:00",
+      "begins_sunset_local": "18:59"
+    },
+    {
+      "id": "unleavened_first",
+      "name": "Panes sin levadura: primer día (santa convocación)",
+      "begins_evening": "2026-04-03",
+      "date": "2026-04-04",
+      "provisional": true,
+      "begins_sunset_utc": "2026-04-03T16:00:07.008829+00:00",
+      "begins_sunset_local": "19:00"
+    },
+    {
+      "id": "unleavened",
+      "name": "Panes sin levadura",
+      "begins_evening": "2026-04-03",
+      "date": "2026-04-04",
+      "provisional": true,
+      "end_date": "2026-04-10",
+      "begins_sunset_utc": "2026-04-03T16:00:07.008829+00:00",
+      "begins_sunset_local": "19:00"
+    },
+    {
+      "id": "unleavened_last",
+      "name": "Panes sin levadura: último día (santa convocación)",
+      "begins_evening": "2026-04-09",
+      "date": "2026-04-10",
+      "provisional": true,
+      "begins_sunset_utc": "2026-04-09T16:04:08.434737+00:00",
+      "begins_sunset_local": "19:04"
+    },
+    {
+      "id": "firstfruits",
+      "name": "Primicias (gavilla mecida)",
+      "begins_evening": "2026-04-04",
+      "date": "2026-04-05",
+      "provisional": true,
+      "note": "Método: weekly_sabbath",
+      "begins_sunset_utc": "2026-04-04T16:00:47.663930+00:00",
+      "begins_sunset_local": "19:01"
+    },
+    {
+      "id": "pentecost",
+      "name": "Pentecostés (Shavuot)",
+      "begins_evening": "2026-05-23",
+      "date": "2026-05-24",
+      "provisional": true,
+      "note": "50 días contando desde las Primicias.",
+      "begins_sunset_utc": "2026-05-23T16:34:30.349417+00:00",
+      "begins_sunset_local": "19:35"
+    },
+    {
+      "id": "trumpets",
+      "name": "Fiesta de las Trompetas",
+      "begins_evening": "2026-09-12",
+      "date": "2026-09-13",
+      "provisional": true,
+      "begins_sunset_utc": "2026-09-12T15:49:24.684979+00:00",
+      "begins_sunset_local": "18:49"
+    },
+    {
+      "id": "atonement",
+      "name": "Día de la Expiación",
+      "begins_evening": "2026-09-21",
+      "date": "2026-09-22",
+      "provisional": true,
+      "begins_sunset_utc": "2026-09-21T15:37:35.058419+00:00",
+      "begins_sunset_local": "18:38"
+    },
+    {
+      "id": "tabernacles",
+      "name": "Fiesta de los Tabernáculos",
+      "begins_evening": "2026-09-26",
+      "date": "2026-09-27",
+      "provisional": true,
+      "end_date": "2026-10-03",
+      "begins_sunset_utc": "2026-09-26T15:31:01.206708+00:00",
+      "begins_sunset_local": "18:31"
+    },
+    {
+      "id": "eighth_day",
+      "name": "Octavo día (gran día)",
+      "begins_evening": "2026-10-03",
+      "date": "2026-10-04",
+      "provisional": true,
+      "begins_sunset_utc": "2026-10-03T15:21:59.524064+00:00",
+      "begins_sunset_local": "18:22"
+    }
+  ]
+}

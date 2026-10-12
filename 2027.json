@@ -1,0 +1,708 @@
+{
+  "year": 2027,
+  "generated_at": "2026-10-12T15:21:55+00:00",
+  "location": "Jerusalén (35.235 E, 31.778 N)",
+  "sources": [
+    "JPL Horizons (efemérides DE440/DE441)"
+  ],
+  "criterion": "illumination",
+  "rules": [
+    "Si hay un avistamiento confirmado en Israel (informes públicos), ese avistamiento decide el inicio del mes.",
+    "Cada mes empieza la primera tarde (hasta 3 tras la conjunción) en que la Luna está sobre el horizonte al ponerse el Sol en Jerusalén y su iluminación es de al menos 1,2 %.",
+    "Entre 1,1 % y 1,2 % el inicio se marca tentativo y se indica la fecha alternativa (un día después).",
+    "Yallop y Odeh se informan como referencia de visibilidad a simple vista.",
+    "Ningún mes pasa de 30 días.",
+    "El día empieza al ponerse el Sol.",
+    "Mes 1 según aviv.json; si no hay dato, provisional: primer mes que empieza después del equinoccio de marzo.",
+    "Gavilla: domingo tras el sábado semanal entre los días 15 y 21; Pentecostés: 49 días después."
+  ],
+  "aviv": {
+    "status": "pendiente",
+    "source": null,
+    "note": ""
+  },
+  "month_count": 12,
+  "months": [
+    {
+      "conjunction_utc": "2027-04-06T23:51:09.727208+00:00",
+      "start_evening": "2027-04-08",
+      "first_day": "2027-04-09",
+      "start_sunset_utc": "2027-04-08T16:03:20.892751+00:00",
+      "start_sunset_local": "19:03",
+      "basis": "visible",
+      "confidence": "confirmado",
+      "evenings": [
+        {
+          "date": "2027-04-07",
+          "status": "ok",
+          "sunset_utc": "2027-04-07T16:02:41.029388+00:00",
+          "illumination_at_sunset_percent": 0.702,
+          "lag_minutes": 40.9,
+          "moon_age_hours": 16.5,
+          "arcv_deg": 8.268,
+          "arcl_deg": 9.723,
+          "width_arcmin": 0.2254,
+          "yallop": {
+            "q": -0.2179,
+            "code": "D"
+          },
+          "odeh": {
+            "v": 2.493,
+            "code": "B"
+          }
+        },
+        {
+          "date": "2027-04-08",
+          "status": "ok",
+          "sunset_utc": "2027-04-08T16:03:20.892751+00:00",
+          "illumination_at_sunset_percent": 3.52,
+          "lag_minutes": 105.9,
+          "moon_age_hours": 40.99,
+          "arcv_deg": 21.021,
+          "arcl_deg": 21.977,
+          "width_arcmin": 1.1528,
+          "yallop": {
+            "q": 1.5655,
+            "code": "A"
+          },
+          "odeh": {
+            "v": 20.327,
+            "code": "A"
+          }
+        }
+      ],
+      "length_days": 29,
+      "number": 1
+    },
+    {
+      "conjunction_utc": "2027-05-06T10:58:38.078000+00:00",
+      "start_evening": "2027-05-07",
+      "first_day": "2027-05-08",
+      "start_sunset_utc": "2027-05-07T16:23:26.045934+00:00",
+      "start_sunset_local": "19:23",
+      "basis": "visible",
+      "confidence": "confirmado",
+      "evenings": [
+        {
+          "date": "2027-05-06",
+          "status": "ok",
+          "sunset_utc": "2027-05-06T16:22:43.812950+00:00",
+          "illumination_at_sunset_percent": 0.258,
+          "lag_minutes": 18.0,
+          "moon_age_hours": 5.53,
+          "arcv_deg": 3.412,
+          "arcl_deg": 5.845,
+          "width_arcmin": 0.0835,
+          "yallop": {
+            "q": -0.7903,
+            "code": "F"
+          },
+          "odeh": {
+            "v": -3.231,
+            "code": "D"
+          }
+        },
+        {
+          "date": "2027-05-07",
+          "status": "ok",
+          "sunset_utc": "2027-05-07T16:23:26.045934+00:00",
+          "illumination_at_sunset_percent": 2.179,
+          "lag_minutes": 87.1,
+          "moon_age_hours": 30.06,
+          "arcv_deg": 16.249,
+          "arcl_deg": 17.273,
+          "width_arcmin": 0.7315,
+          "yallop": {
+            "q": 0.8685,
+            "code": "A"
+          },
+          "odeh": {
+            "v": 13.357,
+            "code": "A"
+          }
+        }
+      ],
+      "length_days": 29,
+      "number": 2
+    },
+    {
+      "conjunction_utc": "2027-06-04T19:40:21.110507+00:00",
+      "start_evening": "2027-06-05",
+      "first_day": "2027-06-06",
+      "start_sunset_utc": "2027-06-05T16:41:58.409179+00:00",
+      "start_sunset_local": "19:42",
+      "basis": "visible",
+      "confidence": "confirmado",
+      "evenings": [
+        {
+          "date": "2027-06-05",
+          "status": "ok",
+          "sunset_utc": "2027-06-05T16:41:58.409179+00:00",
+          "illumination_at_sunset_percent": 1.222,
+          "lag_minutes": 63.8,
+          "moon_age_hours": 21.5,
+          "arcv_deg": 11.471,
+          "arcl_deg": 12.917,
+          "width_arcmin": 0.4179,
+          "yallop": {
+            "q": 0.2155,
+            "code": "B"
+          },
+          "odeh": {
+            "v": 6.827,
+            "code": "A"
+          }
+        }
+      ],
+      "length_days": 30,
+      "number": 3
+    },
+    {
+      "conjunction_utc": "2027-07-04T03:02:05.288821+00:00",
+      "start_evening": "2027-07-05",
+      "first_day": "2027-07-06",
+      "start_sunset_utc": "2027-07-05T16:48:38.584148+00:00",
+      "start_sunset_local": "19:49",
+      "basis": "visible",
+      "confidence": "confirmado",
+      "evenings": [
+        {
+          "date": "2027-07-04",
+          "status": "ok",
+          "sunset_utc": "2027-07-04T16:48:45.040432+00:00",
+          "illumination_at_sunset_percent": 0.533,
+          "lag_minutes": 34.7,
+          "moon_age_hours": 14.03,
+          "arcv_deg": 6.377,
+          "arcl_deg": 8.492,
+          "width_arcmin": 0.1829,
+          "yallop": {
+            "q": -0.4327,
+            "code": "F"
+          },
+          "odeh": {
+            "v": 0.345,
+            "code": "C"
+          }
+        },
+        {
+          "date": "2027-07-05",
+          "status": "ok",
+          "sunset_utc": "2027-07-05T16:48:38.584148+00:00",
+          "illumination_at_sunset_percent": 3.755,
+          "lag_minutes": 81.7,
+          "moon_age_hours": 38.38,
+          "arcv_deg": 15.46,
+          "arcl_deg": 22.644,
+          "width_arcmin": 1.2859,
+          "yallop": {
+            "q": 1.076,
+            "code": "A"
+          },
+          "odeh": {
+            "v": 15.432,
+            "code": "A"
+          }
+        }
+      ],
+      "length_days": 29,
+      "number": 4
+    },
+    {
+      "conjunction_utc": "2027-08-02T10:05:14.389778+00:00",
+      "start_evening": "2027-08-03",
+      "first_day": "2027-08-04",
+      "start_sunset_utc": "2027-08-03T16:34:37.124606+00:00",
+      "start_sunset_local": "19:35",
+      "basis": "visible",
+      "confidence": "confirmado",
+      "evenings": [
+        {
+          "date": "2027-08-02",
+          "status": "ok",
+          "sunset_utc": "2027-08-02T16:35:25.576583+00:00",
+          "illumination_at_sunset_percent": 0.114,
+          "lag_minutes": 6.8,
+          "moon_age_hours": 6.55,
+          "arcv_deg": 1.309,
+          "arcl_deg": 3.892,
+          "width_arcmin": 0.0385,
+          "yallop": {
+            "q": -1.0285,
+            "code": "F"
+          },
+          "odeh": {
+            "v": -5.613,
+            "code": "D"
+          }
+        },
+        {
+          "date": "2027-08-03",
+          "status": "ok",
+          "sunset_utc": "2027-08-03T16:34:37.124606+00:00",
+          "illumination_at_sunset_percent": 2.48,
+          "lag_minutes": 45.4,
+          "moon_age_hours": 30.83,
+          "arcv_deg": 9.097,
+          "arcl_deg": 18.274,
+          "width_arcmin": 0.8394,
+          "yallop": {
+            "q": 0.2112,
+            "code": "B"
+          },
+          "odeh": {
+            "v": 6.784,
+            "code": "A"
+          }
+        }
+      ],
+      "length_days": 29,
+      "number": 5
+    },
+    {
+      "conjunction_utc": "2027-08-31T17:41:11.260827+00:00",
+      "start_evening": "2027-09-01",
+      "first_day": "2027-09-02",
+      "start_sunset_utc": "2027-09-01T16:03:48.356128+00:00",
+      "start_sunset_local": "19:04",
+      "basis": "visible",
+      "confidence": "confirmado",
+      "evenings": [
+        {
+          "date": "2027-09-01",
+          "status": "ok",
+          "sunset_utc": "2027-09-01T16:03:48.356128+00:00",
+          "illumination_at_sunset_percent": 1.373,
+          "lag_minutes": 18.1,
+          "moon_age_hours": 22.51,
+          "arcv_deg": 3.757,
+          "arcl_deg": 13.498,
+          "width_arcmin": 0.4549,
+          "yallop": {
+            "q": -0.5346,
+            "code": "F"
+          },
+          "odeh": {
+            "v": -0.674,
+            "code": "C"
+          }
+        }
+      ],
+      "length_days": 30,
+      "number": 6
+    },
+    {
+      "conjunction_utc": "2027-09-30T02:36:04.991637+00:00",
+      "start_evening": "2027-10-01",
+      "first_day": "2027-10-02",
+      "start_sunset_utc": "2027-10-01T15:24:51.087991+00:00",
+      "start_sunset_local": "18:25",
+      "basis": "visible",
+      "confidence": "confirmado",
+      "evenings": [
+        {
+          "date": "2027-09-30",
+          "status": "moon_below_horizon_at_sunset",
+          "sunset_utc": "2027-09-30T15:26:07.624980+00:00",
+          "illumination_at_sunset_percent": 0.556,
+          "lag_minutes": null,
+          "moon_age_hours": null,
+          "arcv_deg": null,
+          "arcl_deg": null,
+          "width_arcmin": null,
+          "yallop": {
+            "q": null,
+            "code": "F"
+          },
+          "odeh": {
+            "v": null,
+            "code": "D"
+          }
+        },
+        {
+          "date": "2027-10-01",
+          "status": "ok",
+          "sunset_utc": "2027-10-01T15:24:51.087991+00:00",
+          "illumination_at_sunset_percent": 3.331,
+          "lag_minutes": 33.2,
+          "moon_age_hours": 37.06,
+          "arcv_deg": 6.729,
+          "arcl_deg": 21.106,
+          "width_arcmin": 1.0738,
+          "yallop": {
+            "q": 0.0963,
+            "code": "B"
+          },
+          "odeh": {
+            "v": 5.635,
+            "code": "B"
+          }
+        }
+      ],
+      "length_days": 29,
+      "number": 7
+    },
+    {
+      "conjunction_utc": "2027-10-29T13:36:34.175548+00:00",
+      "start_evening": "2027-10-30",
+      "first_day": "2027-10-31",
+      "start_sunset_utc": "2027-10-30T14:52:00.059409+00:00",
+      "start_sunset_local": "17:52",
+      "basis": "visible",
+      "confidence": "confirmado",
+      "evenings": [
+        {
+          "date": "2027-10-29",
+          "status": "moon_below_horizon_at_sunset",
+          "sunset_utc": "2027-10-29T14:52:55.370829+00:00",
+          "illumination_at_sunset_percent": 0.195,
+          "lag_minutes": null,
+          "moon_age_hours": null,
+          "arcv_deg": null,
+          "arcl_deg": null,
+          "width_arcmin": null,
+          "yallop": {
+            "q": null,
+            "code": "F"
+          },
+          "odeh": {
+            "v": null,
+            "code": "D"
+          }
+        },
+        {
+          "date": "2027-10-30",
+          "status": "ok",
+          "sunset_utc": "2027-10-30T14:52:00.059409+00:00",
+          "illumination_at_sunset_percent": 1.525,
+          "lag_minutes": 18.6,
+          "moon_age_hours": 25.39,
+          "arcv_deg": 3.596,
+          "arcl_deg": 14.212,
+          "width_arcmin": 0.4794,
+          "yallop": {
+            "q": -0.5367,
+            "code": "F"
+          },
+          "odeh": {
+            "v": -0.695,
+            "code": "C"
+          }
+        }
+      ],
+      "length_days": 30,
+      "number": 8
+    },
+    {
+      "conjunction_utc": "2027-11-28T03:24:26.498311+00:00",
+      "start_evening": "2027-11-29",
+      "first_day": "2027-11-30",
+      "start_sunset_utc": "2027-11-29T14:35:28.174443+00:00",
+      "start_sunset_local": "16:35",
+      "basis": "visible",
+      "confidence": "confirmado",
+      "evenings": [
+        {
+          "date": "2027-11-28",
+          "status": "ok",
+          "sunset_utc": "2027-11-28T14:35:37.278767+00:00",
+          "illumination_at_sunset_percent": 0.359,
+          "lag_minutes": 1.4,
+          "moon_age_hours": 11.2,
+          "arcv_deg": 0.279,
+          "arcl_deg": 6.856,
+          "width_arcmin": 0.1095,
+          "yallop": {
+            "q": -1.0874,
+            "code": "F"
+          },
+          "odeh": {
+            "v": -6.202,
+            "code": "D"
+          }
+        },
+        {
+          "date": "2027-11-29",
+          "status": "ok",
+          "sunset_utc": "2027-11-29T14:35:28.174443+00:00",
+          "illumination_at_sunset_percent": 2.343,
+          "lag_minutes": 55.2,
+          "moon_age_hours": 35.59,
+          "arcv_deg": 10.032,
+          "arcl_deg": 17.75,
+          "width_arcmin": 0.723,
+          "yallop": {
+            "q": 0.2422,
+            "code": "A"
+          },
+          "odeh": {
+            "v": 7.094,
+            "code": "A"
+          }
+        }
+      ],
+      "length_days": 30,
+      "number": 9
+    },
+    {
+      "conjunction_utc": "2027-12-27T20:12:19.828807+00:00",
+      "start_evening": "2027-12-29",
+      "first_day": "2027-12-30",
+      "start_sunset_utc": "2027-12-29T14:44:07.170533+00:00",
+      "start_sunset_local": "16:44",
+      "basis": "visible",
+      "confidence": "confirmado",
+      "evenings": [
+        {
+          "date": "2027-12-28",
+          "status": "ok",
+          "sunset_utc": "2027-12-28T14:43:28.449695+00:00",
+          "illumination_at_sunset_percent": 0.59,
+          "lag_minutes": 31.9,
+          "moon_age_hours": 18.76,
+          "arcv_deg": 5.873,
+          "arcl_deg": 8.884,
+          "width_arcmin": 0.1791,
+          "yallop": {
+            "q": -0.4855,
+            "code": "F"
+          },
+          "odeh": {
+            "v": -0.183,
+            "code": "C"
+          }
+        },
+        {
+          "date": "2027-12-29",
+          "status": "ok",
+          "sunset_utc": "2027-12-29T14:44:07.170533+00:00",
+          "illumination_at_sunset_percent": 2.944,
+          "lag_minutes": 89.4,
+          "moon_age_hours": 43.19,
+          "arcv_deg": 16.649,
+          "arcl_deg": 20.002,
+          "width_arcmin": 0.8964,
+          "yallop": {
+            "q": 0.9965,
+            "code": "A"
+          },
+          "odeh": {
+            "v": 14.637,
+            "code": "A"
+          }
+        }
+      ],
+      "length_days": 30,
+      "number": 10
+    },
+    {
+      "conjunction_utc": "2028-01-26T15:12:31.042333+00:00",
+      "start_evening": "2028-01-28",
+      "first_day": "2028-01-29",
+      "start_sunset_utc": "2028-01-28T15:09:23.884982+00:00",
+      "start_sunset_local": "17:09",
+      "basis": "visible",
+      "confidence": "confirmado",
+      "evenings": [
+        {
+          "date": "2028-01-27",
+          "status": "ok",
+          "sunset_utc": "2028-01-27T15:08:28.970308+00:00",
+          "illumination_at_sunset_percent": 0.906,
+          "lag_minutes": 50.7,
+          "moon_age_hours": 24.31,
+          "arcv_deg": 10.012,
+          "arcl_deg": 11.056,
+          "width_arcmin": 0.2734,
+          "yallop": {
+            "q": -0.0149,
+            "code": "C"
+          },
+          "odeh": {
+            "v": 4.523,
+            "code": "B"
+          }
+        },
+        {
+          "date": "2028-01-28",
+          "status": "ok",
+          "sunset_utc": "2028-01-28T15:09:23.884982+00:00",
+          "illumination_at_sunset_percent": 3.569,
+          "lag_minutes": 104.6,
+          "moon_age_hours": 48.72,
+          "arcv_deg": 20.94,
+          "arcl_deg": 22.065,
+          "width_arcmin": 1.0797,
+          "yallop": {
+            "q": 1.5205,
+            "code": "A"
+          },
+          "odeh": {
+            "v": 19.877,
+            "code": "A"
+          }
+        }
+      ],
+      "length_days": 29,
+      "number": 11
+    },
+    {
+      "conjunction_utc": "2028-02-25T10:37:25.335925+00:00",
+      "start_evening": "2028-02-26",
+      "first_day": "2028-02-27",
+      "start_sunset_utc": "2028-02-26T15:34:23.868142+00:00",
+      "start_sunset_local": "17:34",
+      "basis": "visible",
+      "confidence": "confirmado",
+      "evenings": [
+        {
+          "date": "2028-02-25",
+          "status": "ok",
+          "sunset_utc": "2028-02-25T15:33:37.228502+00:00",
+          "illumination_at_sunset_percent": 0.112,
+          "lag_minutes": 9.0,
+          "moon_age_hours": 5.0,
+          "arcv_deg": 1.875,
+          "arcl_deg": 3.843,
+          "width_arcmin": 0.0331,
+          "yallop": {
+            "q": -0.9753,
+            "code": "F"
+          },
+          "odeh": {
+            "v": -5.081,
+            "code": "D"
+          }
+        },
+        {
+          "date": "2028-02-26",
+          "status": "ok",
+          "sunset_utc": "2028-02-26T15:34:23.868142+00:00",
+          "illumination_at_sunset_percent": 1.421,
+          "lag_minutes": 61.9,
+          "moon_age_hours": 29.41,
+          "arcv_deg": 12.852,
+          "arcl_deg": 13.853,
+          "width_arcmin": 0.4294,
+          "yallop": {
+            "q": 0.3603,
+            "code": "A"
+          },
+          "odeh": {
+            "v": 8.275,
+            "code": "A"
+          }
+        }
+      ],
+      "length_days": 30,
+      "number": 12
+    }
+  ],
+  "times_note": "Horas del ocaso en hora local de Jerusalén (Asia/Jerusalem).",
+  "feasts": [
+    {
+      "id": "year_start",
+      "name": "Inicio del año (mes de Aviv)",
+      "begins_evening": "2027-04-08",
+      "date": "2027-04-09",
+      "provisional": true,
+      "begins_sunset_utc": "2027-04-08T16:03:20.892751+00:00",
+      "begins_sunset_local": "19:03"
+    },
+    {
+      "id": "passover",
+      "name": "Pascua",
+      "begins_evening": "2027-04-21",
+      "date": "2027-04-22",
+      "provisional": true,
+      "note": "Día 14 del mes 1; el cordero se sacrifica 'entre las dos tardes'.",
+      "begins_sunset_utc": "2027-04-21T16:12:12.328618+00:00",
+      "begins_sunset_local": "19:12"
+    },
+    {
+      "id": "unleavened_first",
+      "name": "Panes sin levadura: primer día (santa convocación)",
+      "begins_evening": "2027-04-22",
+      "date": "2027-04-23",
+      "provisional": true,
+      "begins_sunset_utc": "2027-04-22T16:12:54.460893+00:00",
+      "begins_sunset_local": "19:13"
+    },
+    {
+      "id": "unleavened",
+      "name": "Panes sin levadura",
+      "begins_evening": "2027-04-22",
+      "date": "2027-04-23",
+      "provisional": true,
+      "end_date": "2027-04-29",
+      "begins_sunset_utc": "2027-04-22T16:12:54.460893+00:00",
+      "begins_sunset_local": "19:13"
+    },
+    {
+      "id": "unleavened_last",
+      "name": "Panes sin levadura: último día (santa convocación)",
+      "begins_evening": "2027-04-28",
+      "date": "2027-04-29",
+      "provisional": true,
+      "begins_sunset_utc": "2027-04-28T16:17:04.912670+00:00",
+      "begins_sunset_local": "19:17"
+    },
+    {
+      "id": "firstfruits",
+      "name": "Primicias (gavilla mecida)",
+      "begins_evening": "2027-04-24",
+      "date": "2027-04-25",
+      "provisional": true,
+      "note": "Método: weekly_sabbath",
+      "begins_sunset_utc": "2027-04-24T16:14:17.012338+00:00",
+      "begins_sunset_local": "19:14"
+    },
+    {
+      "id": "pentecost",
+      "name": "Pentecostés (Shavuot)",
+      "begins_evening": "2027-06-12",
+      "date": "2027-06-13",
+      "provisional": true,
+      "note": "50 días contando desde las Primicias.",
+      "begins_sunset_utc": "2027-06-12T16:45:09.087999+00:00",
+      "begins_sunset_local": "19:45"
+    },
+    {
+      "id": "trumpets",
+      "name": "Fiesta de las Trompetas",
+      "begins_evening": "2027-10-01",
+      "date": "2027-10-02",
+      "provisional": true,
+      "begins_sunset_utc": "2027-10-01T15:24:51.087991+00:00",
+      "begins_sunset_local": "18:25"
+    },
+    {
+      "id": "atonement",
+      "name": "Día de la Expiación",
+      "begins_evening": "2027-10-10",
+      "date": "2027-10-11",
+      "provisional": true,
+      "begins_sunset_utc": "2027-10-10T15:13:35.536498+00:00",
+      "begins_sunset_local": "18:14"
+    },
+    {
+      "id": "tabernacles",
+      "name": "Fiesta de los Tabernáculos",
+      "begins_evening": "2027-10-15",
+      "date": "2027-10-16",
+      "provisional": true,
+      "end_date": "2027-10-22",
+      "begins_sunset_utc": "2027-10-15T15:07:39.650317+00:00",
+      "begins_sunset_local": "18:08"
+    },
+    {
+      "id": "eighth_day",
+      "name": "Octavo día (gran día)",
+      "begins_evening": "2027-10-22",
+      "date": "2027-10-23",
+      "provisional": true,
+      "begins_sunset_utc": "2027-10-22T14:59:53.752452+00:00",
+      "begins_sunset_local": "18:00"
+    }
+  ]
+}
