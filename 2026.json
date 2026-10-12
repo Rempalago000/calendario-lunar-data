@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "generated_at": "2026-10-12T15:16:51+00:00",
+  "generated_at": "2026-10-12T22:02:25+00:00",
   "location": "Jerusalén (35.235 E, 31.778 N)",
   "sources": [
     "JPL Horizons (efemérides DE440/DE441)"
@@ -274,45 +274,44 @@
         "url": "https://whenisthenewmoon.com/",
         "date": "2026-09-12"
       },
-      "length_days": 29,
+      "length_days": 30,
       "number": 7
     },
     {
       "conjunction_utc": "2026-10-10T15:50:05.061193+00:00",
-      "start_evening": "2026-10-11",
-      "first_day": "2026-10-12",
-      "start_sunset_utc": "2026-10-11T15:12:05.424147+00:00",
-      "start_sunset_local": "18:12",
-      "basis": "visible",
-      "confidence": "tentativo",
+      "start_evening": "2026-10-12",
+      "first_day": "2026-10-13",
+      "start_sunset_utc": "2026-10-12T15:10:54.265738+00:00",
+      "start_sunset_local": "18:11",
+      "basis": "observado_en_israel",
+      "confidence": "observado",
       "evenings": [
         {
-          "date": "2026-10-11",
+          "date": "2026-10-12",
           "status": "ok",
-          "sunset_utc": "2026-10-11T15:12:05.424147+00:00",
-          "illumination_at_sunset_percent": 1.177,
-          "lag_minutes": 10.9,
-          "moon_age_hours": 23.45,
-          "arcv_deg": 2.233,
-          "arcl_deg": 12.455,
-          "width_arcmin": 0.3592,
+          "sunset_utc": "2026-10-12T15:10:54.265738+00:00",
+          "illumination_at_sunset_percent": 4.254,
+          "lag_minutes": 45.4,
+          "moon_age_hours": 47.68,
+          "arcv_deg": 8.986,
+          "arcl_deg": 23.898,
+          "width_arcmin": 1.2971,
           "yallop": {
-            "q": -0.7423,
-            "code": "F"
+            "q": 0.4341,
+            "code": "A"
           },
           "odeh": {
-            "v": -2.751,
-            "code": "D"
+            "v": 9.013,
+            "code": "A"
           }
         }
       ],
-      "pending_observation": {
+      "observation": {
         "source": "renewedmoon.com",
         "url": "https://renewedmoon.com/",
         "date": "2026-10-12"
       },
-      "alternative_start_evening": "2026-10-12",
-      "length_days": 30,
+      "length_days": 29,
       "number": 8
     },
     {
