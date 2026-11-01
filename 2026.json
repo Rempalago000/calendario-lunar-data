@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "generated_at": "2026-10-12T22:02:25+00:00",
+  "generated_at": "2026-11-01T11:48:26+00:00",
   "location": "Jerusalén (35.235 E, 31.778 N)",
   "sources": [
     "JPL Horizons (efemérides DE440/DE441)"
@@ -318,7 +318,7 @@
       "conjunction_utc": "2026-11-09T07:02:06.909229+00:00",
       "start_evening": "2026-11-10",
       "first_day": "2026-11-11",
-      "start_sunset_utc": "2026-11-10T14:43:05.865049+00:00",
+      "start_sunset_utc": "2026-11-10T14:43:05.866053+00:00",
       "start_sunset_local": "16:43",
       "basis": "visible",
       "confidence": "confirmado",
@@ -326,7 +326,7 @@
         {
           "date": "2026-11-09",
           "status": "moon_below_horizon_at_sunset",
-          "sunset_utc": "2026-11-09T14:43:46.636642+00:00",
+          "sunset_utc": "2026-11-09T14:43:46.637726+00:00",
           "illumination_at_sunset_percent": 0.291,
           "lag_minutes": null,
           "moon_age_hours": null,
@@ -345,7 +345,7 @@
         {
           "date": "2026-11-10",
           "status": "ok",
-          "sunset_utc": "2026-11-10T14:43:05.865049+00:00",
+          "sunset_utc": "2026-11-10T14:43:05.866053+00:00",
           "illumination_at_sunset_percent": 1.872,
           "lag_minutes": 28.4,
           "moon_age_hours": 31.89,
@@ -369,7 +369,7 @@
       "conjunction_utc": "2026-12-09T00:51:51.102991+00:00",
       "start_evening": "2026-12-10",
       "first_day": "2026-12-11",
-      "start_sunset_utc": "2026-12-10T14:35:48.618215+00:00",
+      "start_sunset_utc": "2026-12-10T14:35:48.614401+00:00",
       "start_sunset_local": "16:36",
       "basis": "visible",
       "confidence": "confirmado",
@@ -377,7 +377,7 @@
         {
           "date": "2026-12-09",
           "status": "ok",
-          "sunset_utc": "2026-12-09T14:35:37.641590+00:00",
+          "sunset_utc": "2026-12-09T14:35:37.638022+00:00",
           "illumination_at_sunset_percent": 0.441,
           "lag_minutes": 6.4,
           "moon_age_hours": 13.78,
@@ -396,7 +396,7 @@
         {
           "date": "2026-12-10",
           "status": "ok",
-          "sunset_utc": "2026-12-10T14:35:48.618215+00:00",
+          "sunset_utc": "2026-12-10T14:35:48.614401+00:00",
           "illumination_at_sunset_percent": 2.327,
           "lag_minutes": 59.7,
           "moon_age_hours": 38.17,
@@ -420,7 +420,7 @@
       "conjunction_utc": "2027-01-07T20:24:23.226090+00:00",
       "start_evening": "2027-01-09",
       "first_day": "2027-01-10",
-      "start_sunset_utc": "2027-01-09T14:52:37.029232+00:00",
+      "start_sunset_utc": "2027-01-09T14:52:37.022809+00:00",
       "start_sunset_local": "16:53",
       "basis": "visible",
       "confidence": "confirmado",
@@ -428,7 +428,7 @@
         {
           "date": "2027-01-08",
           "status": "ok",
-          "sunset_utc": "2027-01-08T14:51:47.299097+00:00",
+          "sunset_utc": "2027-01-08T14:51:47.292281+00:00",
           "illumination_at_sunset_percent": 0.563,
           "lag_minutes": 31.0,
           "moon_age_hours": 18.69,
@@ -447,7 +447,7 @@
         {
           "date": "2027-01-09",
           "status": "ok",
-          "sunset_utc": "2027-01-09T14:52:37.029232+00:00",
+          "sunset_utc": "2027-01-09T14:52:37.022809+00:00",
           "illumination_at_sunset_percent": 2.788,
           "lag_minutes": 87.8,
           "moon_age_hours": 43.12,
@@ -471,7 +471,7 @@
       "conjunction_utc": "2027-02-06T15:56:07.251176+00:00",
       "start_evening": "2027-02-08",
       "first_day": "2027-02-09",
-      "start_sunset_utc": "2027-02-08T15:19:35.383249+00:00",
+      "start_sunset_utc": "2027-02-08T15:19:35.386456+00:00",
       "start_sunset_local": "17:20",
       "basis": "visible",
       "confidence": "confirmado",
@@ -479,7 +479,7 @@
         {
           "date": "2027-02-07",
           "status": "ok",
-          "sunset_utc": "2027-02-07T15:18:42.069716+00:00",
+          "sunset_utc": "2027-02-07T15:18:42.073038+00:00",
           "illumination_at_sunset_percent": 0.891,
           "lag_minutes": 49.3,
           "moon_age_hours": 23.74,
@@ -498,7 +498,7 @@
         {
           "date": "2027-02-08",
           "status": "ok",
-          "sunset_utc": "2027-02-08T15:19:35.383249+00:00",
+          "sunset_utc": "2027-02-08T15:19:35.386456+00:00",
           "illumination_at_sunset_percent": 3.681,
           "lag_minutes": 104.9,
           "moon_age_hours": 48.17,
@@ -519,10 +519,10 @@
       "number": 12
     },
     {
-      "conjunction_utc": "2027-03-08T09:29:28.979327+00:00",
+      "conjunction_utc": "2027-03-08T09:29:28.979689+00:00",
       "start_evening": "2027-03-09",
       "first_day": "2027-03-10",
-      "start_sunset_utc": "2027-03-09T15:42:50.927691+00:00",
+      "start_sunset_utc": "2027-03-09T15:42:50.931059+00:00",
       "start_sunset_local": "17:43",
       "basis": "visible",
       "confidence": "confirmado",
@@ -530,7 +530,7 @@
         {
           "date": "2027-03-08",
           "status": "ok",
-          "sunset_utc": "2027-03-08T15:42:06.810549+00:00",
+          "sunset_utc": "2027-03-08T15:42:06.813501+00:00",
           "illumination_at_sunset_percent": 0.123,
           "lag_minutes": 11.9,
           "moon_age_hours": 6.3,
@@ -549,7 +549,7 @@
         {
           "date": "2027-03-09",
           "status": "ok",
-          "sunset_utc": "2027-03-09T15:42:50.927691+00:00",
+          "sunset_utc": "2027-03-09T15:42:50.931059+00:00",
           "illumination_at_sunset_percent": 1.745,
           "lag_minutes": 69.3,
           "moon_age_hours": 30.74,
